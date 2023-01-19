@@ -1,0 +1,77 @@
+:root {
+    --bgcolor: #dbecf4;
+    --navheight: 60px;
+    --whitecolor: #fff;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    text-decoration-line: none;
+    color: inherit;
+  }
+  
+  body {
+    background-color: #678dab;
+    font-family: arial;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    position: fixed;
+    height: var(--navheight);
+    width: 100%;
+    border: 0px solid white;
+    z-index: 40;
+    background-color: #1a4568;
+
+  }
+  
+  nav i {
+    font-size: 11px;
+  }
+  
+  nav ul li ul li a i {
+    float: right;
+    margin-top: 11px;
+  }
+  
+  nav h4 {
+    color: white;
+    line-height: var(--navheight);
+    float: left;
+    padding: 0px 30px;
+    letter-spacing: 2px;
+  }
+  
+  nav ul {
+    float: left;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--whitecolor);
+    border: 0px solid red;
+    line-height: var(--navheight);
+    padding: 0px 12px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+ .main {
+  width: 75%;
+  height:1000px;
+  text-align: center;
+  margin-left: auto;                                      
+  margin-right: auto;
+  padding-top: 100px;
+  z-index: 10;
+  background-color:#dbecf4;
+}
